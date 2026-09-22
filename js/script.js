@@ -163,7 +163,17 @@ if (agvcVideo && agvcPlayBtn && agvcVideoBox) {
 
 
 
+/* =========================================================
+     Google Ads CTA Section start     
+========================================================= */
+document.addEventListener("DOMContentLoaded", function () {
+  const phoneNumber = "+918005677079";
+  const callButton = document.querySelector(".ag-google-ads-cta__button");
 
+  if (callButton) {
+    callButton.setAttribute("href", "tel:" + phoneNumber);
+  }
+});
 
 
 
